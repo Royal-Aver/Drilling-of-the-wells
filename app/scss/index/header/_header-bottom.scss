@@ -1,0 +1,44 @@
+.header-bottom {
+	background-color: #3b3c3d;
+	border-top: 5px solid #c4c4c4;
+	position: relative;
+	z-index: 1;
+}
+
+.menu {
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		text-transform: uppercase;
+		padding: 12px 5px;
+	}
+
+	&__link {
+		color: #ffffff;
+		font-size: 14px;
+		position: relative;
+		padding: 0 5px;
+		transition: color 0.7s, height 0.7s;
+
+		&:before {
+			content: "";
+			position: absolute;
+			height: 0;
+			width: 100%;
+
+			top: -19px;
+			left: 0;
+			background-color: #c9853c;
+			transition: height 0.7s;
+		}
+
+		&:hover:before {
+			height: 5px;
+			z-index: 33;
+		}
+
+		&:hover {
+			color: #c9853c;
+		}
+	}
+}

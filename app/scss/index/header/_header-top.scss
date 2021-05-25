@@ -1,0 +1,33 @@
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #3b3c3d;
+	padding: 17px 0 18px;
+
+	&__text {
+		max-width: 325px;
+		text-transform: uppercase;
+		margin-left: 70px;
+	}
+
+	&__link {
+		color: #ffffff;
+		background-color: #3c75c1;
+		text-transform: uppercase;
+		width: 200px;
+		padding: 12px 43px;
+		text-align: center;
+	}
+
+	&__phone {
+		font-size: 24px;
+		line-height: 1.2;
+	}
+
+	&__time-work {
+		display: block;
+	}
+}
