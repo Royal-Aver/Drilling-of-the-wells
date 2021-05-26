@@ -1,0 +1,59 @@
+.advantages {
+	padding: 60px 0;
+
+	&__title {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__item {
+		width: 225px;
+		max-width: 100%;
+		padding: 130px 5px 30px;
+		box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 25px;
+			right: 50%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 100px;
+			height: 80px;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+
+		&--term:before {
+			background-image: url(../../images/advantages/term.png);
+		}
+		&--time:before {
+			background-image: url(../../images/advantages/time.png);
+		}
+		&--water:before {
+			background-image: url(../../images/advantages/water.png);
+		}
+		&--pressure:before {
+			background-image: url(../../images/advantages/pressure.png);
+		}
+		&--place:before {
+			background-image: url(../../images/advantages/place.png);
+		}
+	}
+
+	&__text {
+		display: block;
+		font-size: 14px;
+		line-height: 1.4;
+		color: #363535;
+		max-width: 180px;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
