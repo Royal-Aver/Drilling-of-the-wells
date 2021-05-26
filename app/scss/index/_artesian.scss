@@ -1,0 +1,37 @@
+.artesian {
+	background-color: #f0f4fa;
+
+	&__inner {
+		position: relative;
+		padding: 60px 0 100px;
+	}
+
+	&__title {
+		margin-bottom: 105px;
+	}
+
+	&__img {
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		top: 83%;
+		bottom: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
+
+	&__content {
+		max-width: 555px;
+		margin-left: auto;
+
+		& p {
+			margin-bottom: 45px;
+		}
+
+		& p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
