@@ -1,0 +1,30 @@
+.cost-calculation {
+	padding: 60px 0 150px;
+	position: relative;
+
+	&__img {
+		position: absolute;
+		background-repeat: no-repeat;
+		background-position: right top;
+		height: 100%;
+		width: 50%;
+		right: 100px;
+		top: 0;
+	}
+
+	&__content {
+		max-width: 500px;
+	}
+
+	&__title {
+		margin-bottom: 10px;
+		font-weight: 400;
+	}
+
+	&__text {
+		color: #696868;
+		margin-bottom: 75px;
+	}
+}
+
+@import "index/button";
